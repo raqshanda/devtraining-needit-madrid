@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="leaves" max_length="40" name="x_58872_needit_leaves" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="from date" max_length="40" name="from" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="reason" max_length="40" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="state" mandatory="true" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="to date" max_length="40" name="to" type="glide_date"/>
+        <element label="Uname" max_length="32" name="uname" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="uname"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

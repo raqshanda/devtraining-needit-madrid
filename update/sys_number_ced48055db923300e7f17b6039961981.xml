@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_58872_needit_leaves">x_58872_needit_leaves</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LEA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 08:42:08</sys_created_on>
+        <sys_id>ced48055db923300e7f17b6039961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LEA</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_number_ced48055db923300e7f17b6039961981</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 08:42:08</sys_updated_on>
+    </sys_number>
+</record_update>
